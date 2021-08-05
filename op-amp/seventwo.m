@@ -1,6 +1,0 @@
-subplot(1,2,1)
-plot(OutWithoutPID(:,1), OutWithPID(:,2))
-title('Out without PID')
-subplot(1,2,2)
-plot(OutWithPID(:,1), OutWithPID(:,2))
-title('Out with PID')
