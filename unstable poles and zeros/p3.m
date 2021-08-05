@@ -1,0 +1,8 @@
+subplot(1,4,1)
+plot(sara(:,1), out1(:,2))
+subplot(1,4,2)
+plot(out2(:,1), out2(:,2))
+subplot(1,4,3)
+plot(p4(:,1), p4(:,2))
+subplot(1,4,4)
+plot(p24(:,1), p24(:,2))

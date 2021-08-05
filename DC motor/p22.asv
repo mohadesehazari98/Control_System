@@ -1,0 +1,6 @@
+subplot(3,1,1)
+plot(tout,y(:,1))
+title('Current')
+subplot(3,1,2)
+
+subplot(3,1,3)

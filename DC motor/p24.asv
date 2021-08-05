@@ -1,0 +1,15 @@
+Func1 = @(t,x1,x2,x3) (1/L) *(-R*x1 + V - K x3);
+Func2 = @(t,x1,x2,x3)  x3;
+Func3 = @(t,x1,x2,x3) (1/J)*(K*x1 - b* x3);
+V=1;
+ts = 0:0.01:5;
+x10 = 0;
+x20 = 0;
+x30 = 0;
+[t,x1] = ode45(Func1,ts,x10,);
+
+plot(t,x,'linewidth',2);
+xlabel ('Time [sec]')
+ylabel ('Amplitude')
+title('x(t)') 
+ 
