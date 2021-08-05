@@ -1,0 +1,6 @@
+subplot(1,2,1)
+plot(EwithoutPID(:,1), EwithoutPID(:,2))
+title('Error without PID')
+subplot(1,2,2)
+plot(EwithPID(:,1), EwithPID(:,2))
+title('Error with PID')
