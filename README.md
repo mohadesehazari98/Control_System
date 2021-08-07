@@ -36,7 +36,7 @@ Problem type: stiff, order of accuracy: low, when to use: if using crude error t
 OdeN:
 The ordinary differential equation (ODE) solvers in matlab solve initial value problems with a variety of properties. The solvers can work on stiff or non-stiff problems, problems with a mass matrix, differential algebraic equations (DAEs), or fully implicit problems.
 
-#Sim-mechanics
+# Sim-mechanics
 
 In this experiment we see one of matlab’s property a classical simulation for mechanical systems. With simMechanics we can have our desired outputs due to classical Newton’s Laws. In pendulum part we can easily change pendulum’s angle to see it’s stability. Also we can see stable and transient response of our system and with changing the time we can reach to our desired graph. Finally, the simscape part in matlab has real physical blocks so we can easily compare our result with real experiments results.
 
